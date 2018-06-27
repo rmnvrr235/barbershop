@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Catalog</title>
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic" rel="stylesheet">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header class="main-header">
+			<nav class="header-nav">
+				<a href="/" class="main-logo">
+					<img src="img/mian-logo.png" alt="Barbershop «Borodinski»">
+				</a>
+				<ul class="main-nav">
+					<li><a href="#">Информация</a></li>
+					<li><a href="#">Новости</a></li>
+					<li><a href="#">Прайс-лист</a></li>
+					<li><a href="#">Магазин</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+				<ul class="user-nav">
+					<li><a href="#">Вход</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main class="catalog">
+			<section class="catalog-content">
+				<h2 class="title-h2">Средства для ухода</h2>
+				<div class="bread-container">
+					<ul>
+						<li><a href="#">Главная</a></li>
+						<li><a href="#">Магазин</a></li>
+						<li><a href="#">Средства для ухода</a></li>
+					</ul>
+				</div>
+				<form action="https://htmlacademy.ru" class="catalog-filter" method="get">
+					
+				</form>
+			</section>
+		</main>
+
+		<footer class="main-footer">
+			<p class="footer-contacts">Барбершоп &laquo;Бородинский&raquo;<br>
+			Адрес: г.&nbsp;Санкт-Петербург, ул.&nbsp;Б.&nbsp;Конюшенная, д.&nbsp;19/8<br>
+			<a href="#">Как нас найти?</a></p>
+			<div class="footer-social">
+				<b>Давайте дружить!</b>
+				<ul class="social">
+					<li><a href="">Вконтакте</a></li>
+					<li><a href="">Facebook</a></li>
+					<li><a href="">Instagram</a></li>
+				</ul>
+			</div>
+			<div class="footer-dev">
+				<b>Разработано:</b>
+				<a href="#" class="btn">HTML Academy</a>
+			</div>
+		</footer>
+		<section class="modal modal-login">
+			<h2 class="title-h2">Личный кабинет</h2>
+			<b>Введите пожалуйста свой логин и пароль</b>
+			<form action="https://htmlacademy.ru/" method="post">		
+				<p class="login-form-item">
+					<label for="login-field">Логин</label>
+					<input type="text" name="login" id="login-field" placeholder="Логин">
+				</p>
+				<p class="login-form-item">
+					<label for="password-field">Пароль</label>
+					<input type="password" placeholder="Пароль">
+				</p>
+				<p class="login-form-item">
+					<input type="checkbox" name="remember" id="remember-field" checked>
+					<label for="remember-field">Запомните меня</label>
+					<a href="#">Я забыл пароль!</a>
+				</p>
+				<button class="btn" type="submit" name="send-form" value="Войти">
+			</form>
+		</section>
+		<section class="modal map">
+			<div class="map">
+				<img src="img/map.img" alt="Как добраться">
+				<button>Закрыть</button>
+			</div>
+		</section>
+	</body>
+</html>
