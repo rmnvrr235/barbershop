@@ -11,13 +11,13 @@
 		<header class="main-header">
 			<nav class="header-nav">
 				<a href="/" class="main-logo">
-					<img src="img/mian-logo.png" alt="Barbershop «Borodinski»">
+					<img src="svg/logo.svg" alt="Barbershop «Borodinski»" width="111" height="24">
 				</a>
 				<ul class="main-nav">
 					<li><a href="#">Информация</a></li>
 					<li><a href="#">Новости</a></li>
 					<li><a href="#">Прайс-лист</a></li>
-					<li><a href="#">Магазин</a></li>
+					<li class="active"><a href="#">Магазин</a></li>
 					<li><a href="#">Контакты</a></li>
 				</ul>
 				<ul class="user-nav">
@@ -27,17 +27,25 @@
 		</header>
 
 		<main class="catalog">
+			<h1 class="title-h1">Средства для ухода</h1>
+			<div class="bread-container">
+				<ul>
+					<li><a href="#">Главная</a></li>
+					<li><a href="#">Магазин</a></li>
+					<li class="bread-current">Средства для ухода</li>
+				</ul>
+			</div>
 			<section class="catalog-content">
-				<h2 class="title-h2">Средства для ухода</h2>
-				<div class="bread-container">
-					<ul>
-						<li><a href="#">Главная</a></li>
-						<li><a href="#">Магазин</a></li>
-						<li><a href="#">Средства для ухода</a></li>
-					</ul>
-				</div>
+				<h2 class="title-h2 visually-hidden">Фильтр товаров</h2>
 				<form action="https://htmlacademy.ru" class="catalog-filter" method="get">
-					
+					<fieldset>
+						<legend>Производители:</legend>
+						
+					</fieldset>
+					<fieldset>
+						<legend>Группы товаров:</legend>
+
+					</fieldset>	
 				</form>
 			</section>
 		</main>
